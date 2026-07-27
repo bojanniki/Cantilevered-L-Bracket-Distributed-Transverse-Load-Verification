@@ -1,0 +1,20 @@
+# Solid Edge files
+*.psm
+*.ssd
+*.par
+*.asm
+*.pwd
+*.psm
+*.dft   # optional: exclude drawing backups if you prefer
+
+# Exclude Solid Edge Simulation result folders (often large/binary)
+Simulation/
+
+# Exclude Jupyter notebook checkpoints (if you don't want them)
+.ipynb_checkpoints/
+
+# Exclude any temporary or system files
+*.log
+*.tmp
+*.bak
+*~
