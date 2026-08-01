@@ -33,8 +33,8 @@ force at the fixed support. The critical section experiences:
 
 ## 2. Objectives
 
-- [ ] Build a parametric 3D model of the L-bracket in Solid Edge Community Edition
-- [ ] Run a static structural simulation (Solid Edge Simulation) under the target load
+- [X] Build a parametric 3D model of the L-bracket in Solid Edge Community Edition
+- [X] Run a static structural simulation (Solid Edge Simulation) under the target load
 - [ ] Build a **parametric Jupyter Notebook**: change the input geometry (arm lengths,
       width, thickness, fillet radius, material, target load) and have it automatically
       recalculate the internal forces, stresses, safety factor, and a clear **pass/fail
@@ -61,7 +61,7 @@ force at the fixed support. The critical section experiences:
 l-bracket-load-check/
 ├── README.md
 ├── CAD/
-│   └── l_bracket.par              # Solid Edge part file
+│   └── l_bracket.psm              # Solid Edge part file
 ├── Simulation/
 │   └── l_bracket_static_study/    # Solid Edge Simulation results
 ├── Calculations/
