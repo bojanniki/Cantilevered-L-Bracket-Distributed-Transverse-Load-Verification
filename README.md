@@ -35,15 +35,15 @@ force at the fixed support. The critical section experiences:
 
 - [X] Build a parametric 3D model of the L-bracket in Solid Edge Community Edition
 - [X] Run a static structural simulation (Solid Edge Simulation) under the target load
-- [ ] Build a **parametric Jupyter Notebook**: change the input geometry (arm lengths,
+- [X] Build a **parametric Jupyter Notebook**: change the input geometry (arm lengths,
       width, thickness, fillet radius, material, target load) and have it automatically
       recalculate the internal forces, stresses, safety factor, and a clear **pass/fail
       verdict** against the desired weight — without manually re-deriving formulas each
       time
-- [ ] Plot the shear force diagram (SFD), bending moment diagram (BMD), and stress
+- [X] Plot the shear force diagram (SFD), bending moment diagram (BMD), and stress
       distribution across the critical section for the current geometry
-- [ ] Compare FEA vs. hand-calculation results
-- [ ] **Verdict: does the bracket pass or fail under the target load?**
+- [X] Compare FEA vs. hand-calculation results
+- [X] **Verdict: does the bracket pass or fail under the target load?**
 
 ## 3. Tools & Methodology
 
@@ -148,13 +148,13 @@ driven entirely by the input block in Section 5, and includes:
 
 ## 9. Workflow Status
 
-- [ ] CAD model completed in Solid Edge
-- [ ] Static simulation set up and run
-- [ ] Notebook: parametric input block + SFD/BMD derivation
-- [ ] Notebook: stress calculations, safety factor, and pass/fail check
-- [ ] Notebook: plots
-- [ ] FEA vs. hand-calc comparison documented in `Results/summary.md`
-- [ ] Final report exported
+- [X] CAD model completed in Solid Edge
+- [X] Static simulation set up and run
+- [X] Notebook: parametric input block + SFD/BMD derivation
+- [X] Notebook: stress calculations, safety factor, and pass/fail check
+- [X] Notebook: plots
+- [X] FEA vs. hand-calc comparison documented in `Results/summary.md`
+- [X] Final report exported
 
 ## 10. Results Summary
 
